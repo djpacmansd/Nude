@@ -1,0 +1,124 @@
+/**************************************************************** 
+	Theme Name: Nude
+	Description: A starter theme to get your projects up and 
+	running more quickly.
+	Version: 1.0
+	Author: Ryan McGovern
+	Author URI: http://pixelers.net 
+****************************************************************/
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+   
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.2); 
+    -moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.2); 
+    -moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    background-color: #333;
+}
+
+/* Style placeholders */
+::-webkit-input-placeholder {
+	color: #999;
+}
+
+:-moz-placeholder {
+	color: #999;
+}
+
+::-moz-placeholder {
+	color: #999;
+	opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+	color: #999;
+}
+
+
+/* WordPress image styles */
+.alignright {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	float: right;
+}
+
+.alignleft {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+.aligncenter {
+	margin: 0 auto;
+	display: block;
+}
+
+.aligncenter,
+.alignleft,
+.alignnone,
+.alignright {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* Main content */
+.main-content {
+	
+}
+
+.navbar {
+	border-radius: 0;
+	border: none;
+}
+
+/* Default styles for post pagination */
+ul.post-pagination {
+	padding: 0;
+	margin: 0;
+}
+
+ul.post-pagination li {
+	list-style: none;
+	float: left;
+	margin-right: 1px;
+}
+
+ul.post-pagination li a {
+	display: block;
+	background-color: #f9f9f9;
+	padding: 6px 12px;
+	border: 1px solid #e7e7e7;
+	color: #999;
+}
+
+ul.post-pagination li.pagination-active a,
+ul.post-pagination li a:hover {
+	background-color: #eee;
+	color: #333;
+}
+
+ul.post-pagination li a:hover {
+	text-decoration: none;
+}
+
+
+/* Mobile styles */
+@media only screen and (min-width: 767px) {
+
+}	
